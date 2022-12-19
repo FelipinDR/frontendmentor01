@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+p{
+    font-size: 16px;
+}
+html{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+}
+.main_element{
+    border-radius:1rem 1rem 1rem 1rem ;
+    background-color: white;
+    max-width: 342px ;
+    height: 528px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.image_one{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    
+}
