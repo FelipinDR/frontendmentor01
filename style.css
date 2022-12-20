@@ -34,9 +34,13 @@ html{
     text-align: center;
     margin-top: 1rem;
     font-weight:900;
+    color:hsl(223, 47%, 23%);
+    margin-bottom: 1rem;
+    margin-top:1.5rem;
 }
 .paragraph_one{
     text-align: center;
+    color:hsl(224, 23%, 55%);
 }
 main div.informations{
     display: flex;
@@ -58,7 +62,9 @@ main .informations .price{
 }
 .change{
     margin-right: 2rem;
-    color:hsl(245, 75%, 52%)
+    color:hsl(245, 75%, 52%);
+    font-size:0.9rem;
+    font-weight: 900;
 }
 .button{
     display:block;
@@ -76,11 +82,17 @@ main .informations .price{
     
 }
 .cancel-order{
-    margin-top:;
     display: flex;
     text-align: center;
     justify-content: center;
     text-decoration: none;
     color:hsl(223, 47%, 23%);
-    font-weight: 700;  
+    font-weight: 800;  
+}
+.annual-plan{
+    color:hsl(223, 47%, 23%);
+    font-weight: 800;
+}
+span{
+    color:hsl(224, 23%, 55%);
 }
