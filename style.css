@@ -5,6 +5,14 @@
     font-family: 'Red Hat Display', sans-serif;
 
 }
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
 p{
     font-size: 16px;
 }
@@ -50,6 +58,12 @@ main div.informations{
     border-radius: 1rem;
     padding: 1.5rem 1rem;
     margin: 2rem 0;
+    position:relative;
+    bottom: 1rem;
+    left:2rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1rem;
+    width: 300px;
 }
 main .informations .music-price{
     display:flex;
@@ -66,6 +80,10 @@ main .informations .price{
     font-size:0.9rem;
     font-weight: 900;
 }
+.change:hover{
+    color:hsla(245, 75%, 52%, 0.712);
+    text-decoration: none;
+}
 .button{
     display:block;
     text-align: center;
@@ -78,8 +96,11 @@ main .informations .price{
     border:none;
     border-radius: 0.4rem;
     position:relative;
-    bottom:1rem
+    bottom:2rem
     
+}
+.button:hover{
+    background-color:hsla(245, 75%, 52%, 0.596)
 }
 .cancel-order{
     display: flex;
@@ -87,7 +108,10 @@ main .informations .price{
     justify-content: center;
     text-decoration: none;
     color:hsl(223, 47%, 23%);
-    font-weight: 800;  
+    font-weight: 800;
+    position:relative;
+    bottom:1rem;
+    font-size:0.7rem  
 }
 .annual-plan{
     color:hsl(223, 47%, 23%);
