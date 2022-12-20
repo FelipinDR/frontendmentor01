@@ -58,4 +58,29 @@ main .informations .price{
 }
 .change{
     margin-right: 2rem;
+    color:hsl(245, 75%, 52%)
+}
+.button{
+    display:block;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    background-color:hsl(245, 75%, 52%);
+    color:white;
+    width:80%;
+    height:7%;
+    border:none;
+    border-radius: 0.4rem;
+    position:relative;
+    bottom:1rem
+    
+}
+.cancel-order{
+    margin-top:;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;  
 }
